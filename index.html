@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=0.65, maximum-scale=1, minimal-ui">
+		<title>Главная страница</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<link href="./build/externals.min.css" rel="stylesheet">
+		<link href="./build/build.min.css" rel="stylesheet">
+		<script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+		<script src="./build/_externals.min.js"></script>
+		<script src="./build/_scripts.min.js"></script>
+	</head>
+
+	<body class="page">
+		<div class="page__backdrop"></div>
+		<div class="page__wrapper">
+			<plot-search>
+				<div class="page__center-container">
+					<div class="page__title">Найди свой избирательный участок</div>
+					<div class="page__subtitle">в городах проведения акции</div>
+					<div class="page__description">томск, калининград, екатеринбург, нижний тагил, пермь, советск</div>
+					<div class="page__plot">Адрес: <span>&mdash;</span></div><select class="select-fypp"></select>
+					<div search-again class="page__button-link"><span class="page__button-link_text">Искать заново</span><i class="page__button-link_icon fa fa-angle-right"></i></div>
+				</div>
+				<div class="page__partners">
+					<div class="page__partners_item"><img src="./images/logo_1.png"></div>
+					<div class="page__partners_item"><img src="./images/logo_2.png"></div>
+				</div>
+			</plot-search>
+			<plot-content>
+				<div class="page__center-container">
+					<div class="page__title">Найди свой избирательный участок</div>
+				</div>
+				<div class="page__content"></div>
+				<div class="page__center-container">
+					<div search-again class="page__button-link"><span class="page__button-link_text">Искать заново</span><i class="page__button-link_icon fa fa-angle-right"></i></div>
+				</div>
+			</plot-content>
+			<plot-not-promo>
+				<div class="page__center-container">
+					<div class="page__title">Найди свой избирательный участок</div>
+					<div class="page__not-promo">К сожалению, ваш избирательный участок не участвует в акции</div><a href="#" class="page__button-link"><span class="page__button-link_text">Как проголосовать на другом избирательном участке</span><i class="page__button-link_icon fa fa-angle-right"></i></a><br>
+					<div
+					 search-again class="page__button-link"><span class="page__button-link_text">Искать заново</span><i class="page__button-link_icon fa fa-angle-right"></i></div>
+		</div>
+		</plot-not-promo>
+		</div>
+	</body>
+
+</html>
