@@ -12,8 +12,14 @@
 		<link href="./build/build.min.css" rel="stylesheet">
 		<script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
 		<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+		<script src="http://connect.mail.ru/js/loader.js"></script>
 		<script src="./build/externals.min.js"></script>
 		<script src="./build/scripts.min.js"></script>
+		<script>
+            mailru.loader.require('api', function(){
+                mailru.app.init(private_key);
+            })
+		</script>
 	</head>
 
 	<body class="page">
