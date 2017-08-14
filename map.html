@@ -8,17 +8,18 @@
 		<meta name="description" content="">
 		<meta name="keywords" content="">
 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-		<link href="./build/externals.min.css" rel="stylesheet">
-		<link href="./build/build.min.css" rel="stylesheet">
+		<link href="./build/externals.min.css?t=1502721979483" rel="stylesheet">
+		<link href="./build/build.min.css?t=1502721979483" rel="stylesheet">
 		<script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
 		<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
-		<script src="http://connect.mail.ru/js/loader.js"></script>
-		<script src="./build/externals.min.js"></script>
-		<script src="./build/scripts.min.js"></script>
+		<script src="https://connect.mail.ru/js/loader.js"></script>
+		<script src="./build/externals.min.js?t=1502721979483"></script>
+		<script src="./build/scripts.min.js?t=1502721979483"></script>
 		<script>
-            mailru.loader.require('api', function(){
-                mailru.app.init('b7013af22958a4535978118d26f00aec');
-            })
+			mailru.loader.require('api', function()
+			{
+				mailru.app.init('b7013af22958a4535978118d26f00aec');
+			})
 		</script>
 	</head>
 
@@ -27,6 +28,9 @@
 		<div class="page__wrapper">
 			<div class="map__spinner"><span>&bull;</span><span>&bull;</span><span>&bull;</span></div>
 			<div id="map" class="map"></div>
+			<div class="page__buttons-links page__center-container">
+				<div class="page__buttons-links_group"><a href="/" search-again class="page__button-link"><span class="page__button-link_text">Вернуться к началу поиска</span></a></div>
+			</div>
 		</div>
 	</body>
 
