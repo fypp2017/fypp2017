@@ -8,18 +8,29 @@
 		<meta name="description" content="">
 		<meta name="keywords" content="">
 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-		<link href="./build/externals.min.css?t=1502722300872" rel="stylesheet">
-		<link href="./build/build.min.css?t=1502722300872" rel="stylesheet">
+		<link href="./build/externals.min.css?t=1504001783904" rel="stylesheet">
+		<link href="./build/build.min.css?t=1504001783904" rel="stylesheet">
+		<script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
 		<script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
 		<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
 		<script src="https://connect.mail.ru/js/loader.js"></script>
-		<script src="./build/externals.min.js?t=1502722300872"></script>
-		<script src="./build/scripts.min.js?t=1502722300872"></script>
+		<script src="./build/externals.min.js?t=1504001783904"></script>
+		<script src="./build/scripts.min.js?t=1504001783904"></script>
 		<script>
 			mailru.loader.require('api', function()
 			{
 				mailru.app.init('b7013af22958a4535978118d26f00aec');
-			})
+			});
+			// Initialize Firebase
+			var config = {
+				apiKey: "AIzaSyBVSotXN6nPoRvD3dKzPEV95a_FkxcRZ4U",
+				authDomain: "fypp-ccd6b.firebaseapp.com",
+				databaseURL: "https://fypp-ccd6b.firebaseio.com",
+				projectId: "fypp-ccd6b",
+				storageBucket: "",
+				messagingSenderId: "364726859321"
+			};
+			firebase.initializeApp(config);
 		</script>
 	</head>
 
