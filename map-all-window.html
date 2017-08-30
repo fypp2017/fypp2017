@@ -8,14 +8,14 @@
 		<meta name="description" content="">
 		<meta name="keywords" content="">
 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-		<link href="./build/externals.min.css?t=1504108797822" rel="stylesheet">
-		<link href="./build/build.min.css?t=1504108797822" rel="stylesheet">
+		<link href="./build/externals.min.css?t=1504108797570" rel="stylesheet">
+		<link href="./build/build.min.css?t=1504108797570" rel="stylesheet">
 		<script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
 		<script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
 		<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
 		<script src="https://connect.mail.ru/js/loader.js"></script>
-		<script src="./build/externals.min.js?t=1504108797822"></script>
-		<script src="./build/scripts.min.js?t=1504108797822"></script>
+		<script src="./build/externals.min.js?t=1504108797570"></script>
+		<script src="./build/scripts.min.js?t=1504108797570"></script>
 		<script>
 			mailru.loader.require('api', function()
 			{
@@ -35,14 +35,7 @@
 	</head>
 
 	<body class="page">
-		<div class="page__backdrop"></div>
-		<div class="page__wrapper">
-			<div class="map__spinner"><span>&bull;</span><span>&bull;</span><span>&bull;</span></div>
-			<div id="map" class="map"></div>
-			<div class="page__buttons-links page__center-container">
-				<div class="page__buttons-links_group"><a href="./" search-again class="page__button-link"><span class="page__button-link_text">Вернуться к началу поиска</span></a></div>
-			</div>
-		</div>
+		<div id="map" class="map map_all-window"></div>
 	</body>
 
 </html>
