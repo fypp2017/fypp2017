@@ -8,14 +8,15 @@
 		<meta name="description" content="">
 		<meta name="keywords" content="">
 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-		<link href="./build/externals.min.css?t=1504192585161" rel="stylesheet">
-		<link href="./build/build.min.css?t=1504192585161" rel="stylesheet">
+		<link href="./build/externals.min.css?t=1504692929223" rel="stylesheet">
+		<link href="./build/build.min.css?t=1504692929223" rel="stylesheet">
 		<script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
 		<script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+		<script src="https://vk.com/js/api/openapi.js?146"></script>
 		<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
 		<script src="https://connect.mail.ru/js/loader.js"></script>
-		<script src="./build/externals.min.js?t=1504192585161"></script>
-		<script src="./build/scripts.min.js?t=1504192585161"></script>
+		<script src="./build/externals.min.js?t=1504692929223"></script>
+		<script src="./build/scripts.min.js?t=1504692929223"></script>
 		<script>
 			mailru.loader.require('api', function()
 			{
@@ -32,14 +33,16 @@
 			};
 			firebase.initializeApp(config);
 		</script>
-		<!-- Global Site Tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-105838400-1"></script>
+		<script src="https://www.googletagmanager.com/gtag/js?id=UA-105838400-1" async></script>
 		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments)};
-		  gtag('js', new Date());
+			window.dataLayer = window.dataLayer || [];
 
-		  gtag('config', 'UA-105838400-1');
+			function gtag()
+			{
+				dataLayer.push(arguments)
+			};
+			gtag('js', new Date());
+			gtag('config', 'UA-105838400-1');
 		</script>
 	</head>
 
